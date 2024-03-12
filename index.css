@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("retro-living-room-interior-design.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+nav {
+  width: 100%;
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  width: 25%;
+  color: rgb(rgb(43, 24, 24), rgb(20, 55, 20), blue);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px;
+}
+
+nav .menu {
+  width: 40%;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .menu a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+section {
+  color: rgb(red, green, blue);
+
+  margin-top: 200px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 140px;
+}
+
+section h1 {
+  font-size: 50px;
+  margin-top: 5px;
+  text-shadow: 3px 1px black;
+}
